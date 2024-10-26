@@ -12,6 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        switzer: ['var(--font-switzer)'],
+      },
+      maxWidth: {
+        '8xl': '1440px',
+      },
     },
   },
   plugins: [],
